@@ -1,7 +1,8 @@
 # YSNoteSOAP
+
 YSNoteSOAP is a JAX-WS/SOAP application for add, list, edit, delete operations notes.
 
-This project developed with Java(JDK 14), JAX-WS(SOAP), Hibernate(JPA implementation), HSQLDB and Maven.
+This project developed with Java(21), JAX-WS(SOAP), Hibernate(JPA implementation), HSQLDB and Maven.
 
 ## [Download](https://github.com/yusufsefasezer/YSNoteSOAP/archive/master.zip)
 

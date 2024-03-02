@@ -3,9 +3,9 @@ package com.yusufsezer.server.soap;
 import com.yusufsezer.server.contract.NoteSOAPService;
 import com.yusufsezer.server.model.Note;
 import com.yusufsezer.server.util.JPAUtil;
+import jakarta.jws.WebParam;
+import jakarta.jws.WebService;
 import java.util.List;
-import javax.jws.WebParam;
-import javax.jws.WebService;
 
 @WebService
 public class NoteSOAPServiceImpl implements NoteSOAPService {

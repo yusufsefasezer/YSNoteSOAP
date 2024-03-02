@@ -1,7 +1,7 @@
 package com.yusufsezer;
 
 import com.yusufsezer.server.soap.NoteSOAPServiceImpl;
-import javax.xml.ws.Endpoint;
+import jakarta.xml.ws.Endpoint;
 
 public class App {
 
