@@ -1,10 +1,10 @@
 package com.yusufsezer.server.model;
 
 import com.yusufsezer.server.contract.BaseEntity;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Lob;
 import java.io.Serializable;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Lob;
 
 @Entity
 public class Note extends BaseEntity implements Serializable {

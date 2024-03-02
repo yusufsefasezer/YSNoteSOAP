@@ -2,7 +2,7 @@ package com.yusufsezer.server.service;
 
 import com.yusufsezer.server.contract.AbstractService;
 import com.yusufsezer.server.model.Note;
-import javax.persistence.EntityManager;
+import jakarta.persistence.EntityManager;
 
 public class NoteService extends AbstractService<Note> {
 

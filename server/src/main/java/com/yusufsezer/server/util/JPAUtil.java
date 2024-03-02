@@ -1,11 +1,11 @@
 package com.yusufsezer.server.util;
 
 import com.yusufsezer.server.service.NoteService;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 
 public class JPAUtil {
 
